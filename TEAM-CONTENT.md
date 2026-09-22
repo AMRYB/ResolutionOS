@@ -13,4 +13,7 @@ CEO status, the original group and joining dates come from the existing approved
 
 Contact address: contact@resolutionos.org (confirmed by the user). Forms prepare a mailto draft and do not claim server-side delivery. Sending remains the visitor's action in their email app.
 
-The seven-person group portrait on the home and team pages is an imagegen composition of the supplied portraits. Its public caption states that it is composed from individual photographs. All seven identities were used, including Salma; Amr wears a suit and Ahmed has no gold object or pointing gesture.
+The seven-person group portrait on the home and team pages is an imagegen composition of the supplied portraits. Its image description and tooltip identify it as a composition from individual photographs. All seven identities were used, including Salma; Amr wears a suit and Ahmed has no gold object or pointing gesture.
+
+
+The active group asset is img/resolutionos/team-group-height.webp. Head-to-body proportions and relative heights were revised following the user's feedback. The original six-page layout and buttons were restored; no new profile pages or contact-preview controls remain.
