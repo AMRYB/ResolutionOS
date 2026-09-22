@@ -729,8 +729,8 @@ function thmScrollAnim() {
 }
 
 function contactFormValidation() {
-    if ($('.contact-form').not('[data-contact-status=unconfigured]').length) {
-        $('.contact-form').not('[data-contact-status=unconfigured]').validate({ // initialize the plugin
+    if ($('.contact-form').not('[data-contact-status]').length) {
+        $('.contact-form').not('[data-contact-status]').validate({ // initialize the plugin
             rules: {
                 name: {
                     required: true
@@ -889,9 +889,4 @@ jQuery(window).on('scroll', function() {
     (function($) {
         stickyHeader();
     })(jQuery);
-});
-
-// No endpoint has been provided. Keep unconfigured forms local and never imply delivery.
-document.querySelectorAll('[data-contact-status="unconfigured"]').forEach(function (form) {
-    form.addEventListener('submit', function (event) { event.preventDefault(); });
 });
