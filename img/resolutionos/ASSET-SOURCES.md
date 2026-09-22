@@ -14,4 +14,6 @@ Use case: photorealistic-natural. Asset type: editorial image for ResolutionOS e
 
 Use case: photorealistic-natural. Asset type: editorial image for the story section of a university-founded customer-service technology startup, ResolutionOS. One premium landscape 3:2 photograph of a collaborative project worktable by a sunlit window, open notebooks with subtle abstract diagrams but no readable writing, two laptops viewed from the back with no brands, navy pens, small warm amber glass desk object, coffee cups, warm ivory table, natural shadows, refined understated Egyptian contemporary workspace atmosphere. No people or body parts, no logos, no text, no watermark. Realistic natural editorial photography, soft tactile detail and balanced composition, warm cream with midnight navy and gold accents. This is an illustrative workspace, not a photograph of any actual company office.
 
-Final files: `resolution-hero.webp`, `commerce.webp`, `workspace.webp` in this directory. The eleven SVG files are original code-native workflow diagrams, extending the site's SVG asset format.
+Final photographic files: `resolution-hero.webp`, `commerce.webp`, `workspace.webp` in this directory.
+
+The eleven workflow SVG diagrams were withdrawn from every page following the user's feedback. The original image elements from commit `8782400` were restored in those slots, including the home carousel and understand/decide/verify sections. The unused SVG files are retained only as source history and are not referenced by the website.

@@ -17,7 +17,7 @@
 .portrait-amira-magdy img { object-position: 50% 25%; transform: scale(2); transform-origin: 51% 25%; }
 .portrait-salma-salah img { object-position: left center; transform: scale(1.65); transform-origin: 0% 38%; }
 img.team-composite { width: 100%; height: auto; object-fit: contain; }
-.about-image img, .supertabs .image-box img, .supertabs .tab-pane > img, .feature-2 img, .feature-4 .img-box img { max-width: 100%; height: auto; }
+.about-image img { max-width: 100%; height: auto; }
 .contact-form .form-result { overflow-wrap: anywhere; font-size: 12px; line-height: 1.8; }
 .contact-form .form-result a { color: #76510d; }
 .footer-bottom a { color: inherit; }
