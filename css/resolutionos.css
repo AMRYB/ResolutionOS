@@ -21,3 +21,8 @@ img.team-composite { width: 100%; height: auto; object-fit: contain; }
 .contact-form .form-result { overflow-wrap: anywhere; font-size: 12px; line-height: 1.8; }
 .contact-form .form-result a { color: #76510d; }
 .footer-bottom a { color: inherit; }
+.generated-photo { max-width: 100%; height: auto; }
+/* Keep the existing carousel captions readable over photographs. */
+.single-projects .image-holder::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(transparent 45%, rgba(0,0,0,.68)); }
+.single-projects .image-holder .text { z-index: 2; }
+.single-projects .image-holder .overlay { z-index: 3; }
